@@ -1,0 +1,14 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+main()
+{
+  
+  char nome;
+    printf("Qual seu nome? \n");
+    scanf("%s", &nome);
+    
+    printf("Prazer em conhece-lo,%s!", nome);
+    
+    system("pause");
+}
